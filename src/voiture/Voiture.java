@@ -4,6 +4,7 @@ public class Voiture {
 	
 	private int id;
 	private int position;
+	private int vitesse;
 	
 	// CONSTRUCTEUR
 	public Voiture() {
@@ -11,7 +12,7 @@ public class Voiture {
 	
 	
 	public void deplacement(){
-		
+		this.position += this.vitesse;
 	}
 	
 	
