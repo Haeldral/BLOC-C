@@ -16,6 +16,8 @@ public class VoitureFactory {
 			case META:
 				break;
 		}
+		
+		// A ENLEVER
 		Voiture voiture = new Voiture();
 		return voiture;
 	}
